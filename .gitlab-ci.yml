@@ -27,6 +27,6 @@ build:
     - go build
   artifacts:
     paths:
-      - artifact-deployer
+      - ips-in-cidrs
     expire_in: 1 week
 

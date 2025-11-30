@@ -9,7 +9,7 @@ Create two text files, called:
 - `cidrs.txt` (with your list of CIDRs, each new line a CIDR notation)
 - `ips.txt` (with your list of IPs, each new line a IP address)
 
-And then run the `./ips-in-cidrs` binary (see GitLab CICD pipeline)
+And then run the `./ips-in-cidrs` binary (see the [GitLab CICD artifacts](https://gitlab.melroy.org/melroy/ips-in-cidrs/-/artifacts))
 
 ## Development
 
