@@ -4,12 +4,11 @@ IPs in CIDR is a simple Go tool which checks a list of IPs against a list of CID
 
 ## Production
 
-Create two text files, called:
-
-- `cidrs.txt` (with your list of CIDRs, each new line a CIDR notation)
-- `ips.txt` (with your list of IPs, each new line a IP address)
-
-And then run the `./ips-in-cidrs` binary (see the latest binary in: [GitLab CICD artifacts](https://gitlab.melroy.org/melroy/ips-in-cidrs/-/jobs/artifacts/main/browse?job=build). You can download the pre-build binary from there.)
+1. Download the pre-build binary from: [GitLab CICD artifacts](https://gitlab.melroy.org/melroy/ips-in-cidrs/-/jobs/artifacts/main/browse?job=build)
+2. Create two text files, called:
+  - `cidrs.txt` (with your list of CIDRs, each new line a CIDR notation), and:
+  - `ips.txt` (with your list of IPs, each new line an IP address)
+3. Finally, run: `./ips-in-cidrs`
 
 ## Development
 
